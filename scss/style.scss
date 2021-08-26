@@ -53,9 +53,11 @@ width: 100%;
 background-color: #3498db;}
 .home__img {
 width: auto;
-height: auto;}
+height: auto;
+display: none;}
 .home__img__vertical {
-    width: auto;
+width: 100%;
+height: auto;
 }
 .home__text {
 margin: 83px 0;
