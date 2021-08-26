@@ -46,7 +46,10 @@ header {
     width: 100%;
     background-color: #3498db; }
   .home__img {
-    width: 600px; }
+    width: auto;
+    height: auto; }
+  .home__img__vertical {
+    width: auto; }
   .home__text {
     margin: 83px 0;
     text-align: center; }
@@ -247,7 +250,13 @@ header {
       font-size: 6rem;
       margin-bottom: 0;
       color: #202030;
-      text-decoration: underline 5px #F7F7FF; } }
+      text-decoration: underline 5px #F7F7FF; }
+  #home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #3498db;
+    height: auto; } }
 
 @media only screen and (min-width: 992px) {
   header {
