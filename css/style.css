@@ -270,8 +270,7 @@ header {
   #home {
     height: auto;
     display: flex;
-    flex-direction: row;
-    height: 100vh; }
+    flex-direction: row; }
   .home__text {
     margin: auto;
     text-align: center; }
